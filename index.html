@@ -1,0 +1,2403 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+  />
+
+  <title> For my looove "R" </title>
+
+  <meta
+    name="description"
+    content="رسالة خاصة بمناسبة عيد ميلادك "
+  />
+
+  <meta name="theme-color" content="#4a1726" />
+
+  <style>
+
+    /* =========================================================
+       RESET
+    ========================================================= */
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-height: 100vh;
+
+      font-family:
+        "Tahoma",
+        "Arial",
+        sans-serif;
+
+      background:
+        #fffaf5;
+
+      color:
+        #351b25;
+
+      overflow-x: hidden;
+    }
+
+    button {
+      font-family: inherit;
+    }
+
+
+    /* =========================================================
+       COLORS
+    ========================================================= */
+
+    :root {
+
+      --wine:
+        #4a1726;
+
+      --wine-2:
+        #651f35;
+
+      --rose:
+        #9b4661;
+
+      --cream:
+        #fffaf5;
+
+      --ivory:
+        #f8eee8;
+
+      --gold:
+        #c9a66b;
+
+      --gold-light:
+        #e4c98f;
+
+      --text:
+        #351b25;
+
+      --muted:
+        #7d626b;
+
+      --white:
+        #ffffff;
+
+      --neon:
+        rgba(155, 70, 97, .28);
+
+      --gold-glow:
+        rgba(228, 201, 143, .25);
+    }
+
+
+    /* =========================================================
+       INTRO / HERO
+    ========================================================= */
+
+    .hero {
+
+      min-height:
+        100svh;
+
+      position:
+        relative;
+
+      display:
+        flex;
+
+      align-items:
+        center;
+
+      justify-content:
+        center;
+
+      padding:
+        30px 20px;
+
+      overflow:
+        hidden;
+
+      color:
+        white;
+
+      background:
+
+        radial-gradient(
+          circle at 50% 35%,
+          rgba(155, 70, 97, .16),
+          transparent 30%
+        ),
+
+        radial-gradient(
+          circle at 15% 80%,
+          rgba(201, 166, 107, .08),
+          transparent 30%
+        ),
+
+        linear-gradient(
+          145deg,
+          #35101c,
+          #4a1726 50%,
+          #2d101b
+        );
+    }
+
+
+    /* دائرة زخرفية */
+
+    .hero::before {
+
+      content:
+        "";
+
+      position:
+        absolute;
+
+      width:
+        430px;
+
+      height:
+        430px;
+
+      border:
+        1px solid
+        rgba(228, 201, 143, .13);
+
+      border-radius:
+        50%;
+
+      top:
+        -210px;
+
+      right:
+        -180px;
+    }
+
+
+    .hero::after {
+
+      content:
+        "";
+
+      position:
+        absolute;
+
+      width:
+        360px;
+
+      height:
+        360px;
+
+      border:
+        1px solid
+        rgba(155, 70, 97, .18);
+
+      border-radius:
+        50%;
+
+      bottom:
+        -200px;
+
+      left:
+        -170px;
+    }
+
+
+    .hero-content {
+
+      position:
+        relative;
+
+      z-index:
+        3;
+
+      width:
+        min(650px, 100%);
+
+      text-align:
+        center;
+
+      animation:
+        heroAppear 1.1s ease both;
+    }
+
+
+    @keyframes heroAppear {
+
+      from {
+
+        opacity:
+          0;
+
+        transform:
+          translateY(25px)
+          scale(.98);
+      }
+
+      to {
+
+        opacity:
+          1;
+
+        transform:
+          translateY(0)
+          scale(1);
+      }
+    }
+
+
+    /* =========================================================
+       HEART
+    ========================================================= */
+
+    .hero-heart {
+
+      width:
+        82px;
+
+      height:
+        82px;
+
+      margin:
+        0 auto 32px;
+
+      display:
+        flex;
+
+      align-items:
+        center;
+
+      justify-content:
+        center;
+
+      border:
+        1px solid
+        rgba(228, 201, 143, .35);
+
+      border-radius:
+        50%;
+
+      color:
+        var(--gold-light);
+
+      font-size:
+        32px;
+
+      background:
+        rgba(255,255,255,.035);
+
+      box-shadow:
+
+        0 0 15px
+        rgba(155,70,97,.12),
+
+        inset 0 0 20px
+        rgba(201,166,107,.04);
+
+      animation:
+        heartPulse 2.8s ease-in-out infinite;
+    }
+
+
+    @keyframes heartPulse {
+
+      0%,
+      100% {
+        transform:
+          scale(1);
+      }
+
+      50% {
+        transform:
+          scale(1.06);
+      }
+    }
+
+
+    .eyebrow {
+
+      color:
+        var(--gold-light);
+
+      font-size:
+        .78rem;
+
+      letter-spacing:
+        2px;
+
+      margin-bottom:
+        16px;
+
+      opacity:
+        .9;
+    }
+
+
+    .hero h1 {
+
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+      font-size:
+        clamp(
+          2.4rem,
+          10vw,
+          5rem
+        );
+
+      line-height:
+        1.25;
+
+      font-weight:
+        600;
+
+      margin-bottom:
+        18px;
+
+      text-shadow:
+
+        0 0 10px
+        rgba(255,255,255,.08),
+
+        0 0 25px
+        rgba(155,70,97,.13);
+    }
+
+
+    .hero-description {
+
+      color:
+        rgba(255,255,255,.68);
+
+      line-height:
+        2;
+
+      font-size:
+        .95rem;
+
+      max-width:
+        500px;
+
+      margin:
+        0 auto 35px;
+    }
+
+
+    /* =========================================================
+       BUTTON
+    ========================================================= */
+
+    .main-button {
+
+      position:
+        relative;
+
+      border:
+        1px solid
+        rgba(228,201,143,.6);
+
+      background:
+        linear-gradient(
+          135deg,
+          var(--gold-light),
+          var(--gold)
+        );
+
+      color:
+        var(--wine);
+
+      padding:
+        15px 32px;
+
+      min-width:
+        220px;
+
+      border-radius:
+        999px;
+
+      font-size:
+        .98rem;
+
+      font-weight:
+        bold;
+
+      cursor:
+        pointer;
+
+      box-shadow:
+
+        0 10px 30px
+        rgba(0,0,0,.22),
+
+        0 0 15px
+        rgba(228,201,143,.12);
+
+      transition:
+        .3s ease;
+    }
+
+
+    .main-button:hover {
+
+      transform:
+        translateY(-3px);
+
+      box-shadow:
+
+        0 14px 35px
+        rgba(0,0,0,.25),
+
+        0 0 22px
+        rgba(228,201,143,.22);
+    }
+
+
+    .main-button:active {
+
+      transform:
+        scale(.97);
+    }
+
+
+    /* سهم أسفل الصفحة */
+
+    .scroll-hint {
+
+      position:
+        absolute;
+
+      bottom:
+        25px;
+
+      left:
+        50%;
+
+      transform:
+        translateX(-50%);
+
+      color:
+        rgba(255,255,255,.38);
+
+      font-size:
+        20px;
+
+      animation:
+        arrowMove 1.8s infinite;
+    }
+
+
+    @keyframes arrowMove {
+
+      0%,
+      100% {
+        transform:
+          translate(-50%, 0);
+      }
+
+      50% {
+        transform:
+          translate(-50%, 7px);
+      }
+    }
+
+
+    /* =========================================================
+       GENERAL SECTION
+    ========================================================= */
+
+    section {
+
+      position:
+        relative;
+
+      padding:
+        90px 18px;
+    }
+
+
+    .container {
+
+      width:
+        min(850px, 100%);
+
+      margin:
+        auto;
+    }
+
+
+    .section-title {
+
+      text-align:
+        center;
+
+      margin-bottom:
+        38px;
+    }
+
+
+    .section-title small {
+
+      display:
+        block;
+
+      color:
+        var(--gold);
+
+      font-size:
+        .75rem;
+
+      letter-spacing:
+        1px;
+
+      margin-bottom:
+        9px;
+    }
+
+
+    .section-title h2 {
+
+      color:
+        var(--wine);
+
+      font-family:
+        Georgia,
+        serif;
+
+      font-size:
+        clamp(
+          2rem,
+          8vw,
+          3.2rem
+        );
+
+      line-height:
+        1.35;
+
+      text-shadow:
+        0 0 12px
+        rgba(155,70,97,.08);
+    }
+
+
+    /* =========================================================
+       LETTER SECTION
+    ========================================================= */
+
+    .letter-section {
+
+      background:
+        linear-gradient(
+          180deg,
+          #fffaf5,
+          #f8eee8
+        );
+    }
+
+
+    .letter-card {
+
+      position:
+        relative;
+
+      padding:
+        clamp(
+          30px,
+          7vw,
+          60px
+        );
+
+      border-radius:
+        28px;
+
+      background:
+        rgba(255,255,255,.84);
+
+      border:
+        1px solid
+        rgba(201,166,107,.34);
+
+      box-shadow:
+
+        0 25px 65px
+        rgba(60,18,32,.11),
+
+        0 0 20px
+        rgba(155,70,97,.055);
+
+      overflow:
+        hidden;
+    }
+
+
+    /* خط ذهبي جانبي */
+
+    .letter-card::before {
+
+      content:
+        "";
+
+      position:
+        absolute;
+
+      top:
+        25px;
+
+      bottom:
+        25px;
+
+      right:
+        0;
+
+      width:
+        3px;
+
+      background:
+        linear-gradient(
+          transparent,
+          var(--gold),
+          transparent
+        );
+
+      opacity:
+        .65;
+
+      box-shadow:
+        0 0 12px
+        rgba(201,166,107,.18);
+    }
+
+
+    .letter-top {
+
+      display:
+        flex;
+
+      align-items:
+        center;
+
+      gap:
+        12px;
+
+      margin-bottom:
+        30px;
+    }
+
+
+    .letter-icon {
+
+      width:
+        42px;
+
+      height:
+        42px;
+
+      border-radius:
+        50%;
+
+      display:
+        flex;
+
+      align-items:
+        center;
+
+      justify-content:
+        center;
+
+      background:
+        var(--wine);
+
+      color:
+        var(--gold-light);
+
+      box-shadow:
+        0 0 12px
+        rgba(155,70,97,.15);
+    }
+
+
+    .letter-top strong {
+
+      color:
+        var(--wine);
+
+      font-size:
+        1rem;
+    }
+
+
+    .letter-content {
+
+      font-size:
+        1rem;
+
+      line-height:
+        2.25;
+
+      color:
+        #432631;
+
+      white-space:
+        pre-line;
+
+      min-height:
+        300px;
+    }
+
+
+    .typing-cursor {
+
+      display:
+        inline-block;
+
+      width:
+        2px;
+
+      height:
+        20px;
+
+      background:
+        var(--rose);
+
+      margin-right:
+        3px;
+
+      vertical-align:
+        middle;
+
+      animation:
+        cursorBlink .7s infinite;
+
+      box-shadow:
+        0 0 8px
+        rgba(155,70,97,.25);
+    }
+
+
+    @keyframes cursorBlink {
+
+      50% {
+        opacity:
+          0;
+      }
+    }
+
+
+    .letter-bottom {
+
+      display:
+        flex;
+
+      justify-content:
+        space-between;
+
+      align-items:
+        center;
+
+      margin-top:
+        35px;
+
+      padding-top:
+        20px;
+
+      border-top:
+        1px solid
+        rgba(201,166,107,.22);
+
+      color:
+        var(--muted);
+
+      font-size:
+        .8rem;
+    }
+
+
+    .signature {
+
+      color:
+        var(--wine);
+
+      font-family:
+        Georgia,
+        serif;
+
+      font-size:
+        1.05rem;
+    }
+
+
+    /* =========================================================
+       COUNTER
+    ========================================================= */
+
+    .counter-section {
+
+      background:
+        linear-gradient(
+          145deg,
+          #4a1726,
+          #651f35
+        );
+
+      color:
+        white;
+
+      overflow:
+        hidden;
+    }
+
+
+    .counter-section::before {
+
+      content:
+        "";
+
+      position:
+        absolute;
+
+      width:
+        300px;
+
+      height:
+        300px;
+
+      border-radius:
+        50%;
+
+      border:
+        1px solid
+        rgba(228,201,143,.10);
+
+      top:
+        -150px;
+
+      left:
+        -100px;
+    }
+
+
+    .counter-section .section-title small {
+
+      color:
+        var(--gold-light);
+    }
+
+
+    .counter-section .section-title h2 {
+
+      color:
+        white;
+    }
+
+
+    .counter-description {
+
+      text-align:
+        center;
+
+      color:
+        rgba(255,255,255,.63);
+
+      font-size:
+        .9rem;
+
+      margin:
+        -18px auto 35px;
+    }
+
+
+    .counter {
+
+      display:
+        grid;
+
+      grid-template-columns:
+        repeat(4,1fr);
+
+      gap:
+        10px;
+    }
+
+
+    .time-box {
+
+      text-align:
+        center;
+
+      padding:
+        22px 8px;
+
+      border-radius:
+        20px;
+
+      background:
+        rgba(255,255,255,.055);
+
+      border:
+        1px solid
+        rgba(228,201,143,.20);
+
+      box-shadow:
+        0 0 15px
+        rgba(155,70,97,.06);
+
+      backdrop-filter:
+        blur(8px);
+
+      transition:
+        .3s ease;
+    }
+
+
+    .time-box:hover {
+
+      transform:
+        translateY(-4px);
+
+      border-color:
+        rgba(228,201,143,.35);
+
+      box-shadow:
+        0 0 22px
+        rgba(155,70,97,.12);
+    }
+
+
+    .time-number {
+
+      display:
+        block;
+
+      font-family:
+        Georgia,
+        serif;
+
+      font-size:
+        clamp(
+          1.9rem,
+          8vw,
+          3.2rem
+        );
+
+      color:
+        var(--gold-light);
+
+      line-height:
+        1;
+
+      margin-bottom:
+        10px;
+
+      text-shadow:
+        0 0 10px
+        rgba(228,201,143,.15);
+    }
+
+
+    .time-label {
+
+      font-size:
+        .72rem;
+
+      color:
+        rgba(255,255,255,.62);
+    }
+
+
+    /* =========================================================
+       FINAL SECTION
+    ========================================================= */
+
+    .final-section {
+
+      min-height:
+        70svh;
+
+      display:
+        flex;
+
+      align-items:
+        center;
+
+      justify-content:
+        center;
+
+      text-align:
+        center;
+
+      background:
+        var(--cream);
+    }
+
+
+    .final-heart {
+
+      font-size:
+        55px;
+
+      display:
+        block;
+
+      margin-bottom:
+        20px;
+
+      filter:
+        drop-shadow(
+          0 0 9px
+          rgba(155,70,97,.2)
+        );
+
+      animation:
+        finalHeart 2s infinite;
+    }
+
+
+    @keyframes finalHeart {
+
+      0%,
+      100% {
+        transform:
+          scale(1);
+      }
+
+      50% {
+        transform:
+          scale(1.08);
+      }
+    }
+
+
+    .final-title {
+
+      color:
+        var(--wine);
+
+      font-family:
+        Georgia,
+        serif;
+
+      font-size:
+        clamp(
+          2rem,
+          8vw,
+          3.5rem
+        );
+
+      line-height:
+        1.45;
+
+      margin-bottom:
+        25px;
+
+      text-shadow:
+        0 0 12px
+        rgba(155,70,97,.08);
+    }
+
+
+    .final-text {
+
+      color:
+        var(--muted);
+
+      line-height:
+        2;
+
+      font-size:
+        .92rem;
+
+      max-width:
+        500px;
+
+      margin:
+        0 auto 30px;
+    }
+
+
+    /* =========================================================
+       SURPRISE
+    ========================================================= */
+
+    .surprise {
+
+      max-height:
+        0;
+
+      overflow:
+        hidden;
+
+      opacity:
+        0;
+
+      transform:
+        translateY(10px);
+
+      transition:
+        .7s ease;
+    }
+
+
+    .surprise.show {
+
+      max-height:
+        200px;
+
+      opacity:
+        1;
+
+      transform:
+        translateY(0);
+
+      margin-bottom:
+        25px;
+    }
+
+
+    .surprise-text {
+
+      display:
+        inline-block;
+
+      color:
+        var(--wine);
+
+      font-size:
+        1.2rem;
+
+      font-weight:
+        bold;
+
+      padding:
+        15px 20px;
+
+      border-radius:
+        18px;
+
+      background:
+        rgba(155,70,97,.05);
+
+      border:
+        1px solid
+        rgba(155,70,97,.13);
+
+      box-shadow:
+        0 0 18px
+        rgba(155,70,97,.07);
+    }
+
+
+    /* =========================================================
+       FLOATING HEARTS
+    ========================================================= */
+
+    .floating-hearts {
+
+      position:
+        fixed;
+
+      inset:
+        0;
+
+      pointer-events:
+        none;
+
+      overflow:
+        hidden;
+
+      z-index:
+        10;
+    }
+
+
+    .bg-heart {
+
+      position:
+        absolute;
+
+      bottom:
+        -30px;
+
+      color:
+        rgba(112,31,56,.11);
+
+      font-size:
+        15px;
+
+      animation:
+        floatUp linear forwards;
+    }
+
+
+    @keyframes floatUp {
+
+      from {
+
+        transform:
+          translateY(0)
+          rotate(0);
+
+        opacity:
+          0;
+      }
+
+      15% {
+        opacity:
+          1;
+      }
+
+      85% {
+        opacity:
+          .8;
+      }
+
+      to {
+
+        transform:
+          translateY(-110vh)
+          rotate(25deg);
+
+        opacity:
+          0;
+      }
+    }
+
+
+    /* =========================================================
+       CELEBRATION
+    ========================================================= */
+
+    .celebration-heart {
+
+      position:
+        fixed;
+
+      z-index:
+        100;
+
+      pointer-events:
+        none;
+
+      font-size:
+        20px;
+
+      animation:
+        celebrate 1.8s ease forwards;
+
+      filter:
+        drop-shadow(
+          0 0 8px
+          rgba(155,70,97,.25)
+        );
+    }
+
+
+    @keyframes celebrate {
+
+      from {
+
+        transform:
+          translate(0,0)
+          scale(.4)
+          rotate(0);
+
+        opacity:
+          1;
+      }
+
+      to {
+
+        transform:
+          translate(var(--x),var(--y))
+          scale(1.3)
+          rotate(var(--r));
+
+        opacity:
+          0;
+      }
+    }
+
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+
+    footer {
+
+      text-align:
+        center;
+
+      padding:
+        25px 20px;
+
+      background:
+        #2d101b;
+
+      color:
+        rgba(255,255,255,.5);
+
+      font-size:
+        .75rem;
+    }
+
+
+    /* =========================================================
+       MOBILE
+    ========================================================= */
+
+    @media (max-width: 600px) {
+
+      .hero {
+
+        padding:
+          25px 18px;
+      }
+
+
+      .hero-heart {
+
+        width:
+          72px;
+
+        height:
+          72px;
+
+        font-size:
+          27px;
+
+        margin-bottom:
+          26px;
+      }
+
+
+      .hero h1 {
+
+        font-size:
+          2.55rem;
+      }
+
+
+      .hero-description {
+
+        font-size:
+          .86rem;
+
+        line-height:
+          2.1;
+      }
+
+
+      section {
+
+        padding:
+          75px 16px;
+      }
+
+
+      .letter-card {
+
+        padding:
+          28px 21px;
+
+        border-radius:
+          23px;
+      }
+
+
+      .letter-content {
+
+        font-size:
+          .93rem;
+
+        line-height:
+          2.15;
+
+        min-height:
+          430px;
+      }
+
+
+      .letter-bottom {
+
+        flex-direction:
+          column;
+
+        gap:
+          10px;
+
+        align-items:
+          flex-start;
+      }
+
+
+      .counter {
+
+        grid-template-columns:
+          repeat(2,1fr);
+
+        gap:
+          10px;
+      }
+
+
+      .time-box {
+
+        padding:
+          20px 5px;
+      }
+
+
+      .time-number {
+
+        font-size:
+          2.2rem;
+      }
+
+
+      .final-section {
+
+        min-height:
+          65svh;
+      }
+
+    }
+
+
+    /* =========================================================
+       ACCESSIBILITY
+    ========================================================= */
+
+    button:focus-visible {
+
+      outline:
+        3px solid
+        var(--gold-light);
+
+      outline-offset:
+        4px;
+    }
+
+
+    @media (prefers-reduced-motion: reduce) {
+
+      *,
+      *::before,
+      *::after {
+
+        animation-duration:
+          .01ms !important;
+
+        animation-iteration-count:
+          1 !important;
+
+        scroll-behavior:
+          auto !important;
+
+        transition-duration:
+          .01ms !important;
+      }
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+
+  <!-- =======================================================
+       الخلفية
+  ======================================================== -->
+
+  <div
+    class="floating-hearts"
+    id="floatingHearts"
+    aria-hidden="true"
+  ></div>
+
+
+  <!-- =======================================================
+       HERO
+  ======================================================== -->
+
+  <header class="hero">
+
+    <div class="hero-content">
+
+      <div class="hero-heart">
+        ♡
+      </div>
+
+      <div class="eyebrow">
+        رسالة خاصة ليوم مميز
+      </div>
+
+      <h1>
+        لِحياتي "R"
+      </h1>
+
+      <p class="hero-description">
+
+        مش مجرد رسالة عيد ميلاد...
+        دي شوية كلام من شخص لسه شايلك في قلبه
+        وبيتمنى لك الخير من قلبه.
+
+      </p>
+
+      <button
+        class="main-button"
+        id="openMessage"
+      >
+        افتحي الرساله 💌
+      </button>
+
+    </div>
+
+
+    <div class="scroll-hint">
+      ↓
+    </div>
+
+  </header>
+
+
+  <!-- =======================================================
+       الرسالة
+  ======================================================== -->
+
+  <section
+    class="letter-section"
+    id="messageSection"
+  >
+
+    <div class="container">
+
+      <div class="section-title">
+
+        <small>
+          من قلبي
+        </small>
+
+        <h2>
+          رسالتي ليكِ
+        </h2>
+
+      </div>
+
+
+      <article class="letter-card">
+
+        <div class="letter-top">
+
+          <div class="letter-icon">
+            R
+          </div>
+
+          <strong>
+            كُل سنه وانتِ طيبه يحبيبتي
+          </strong>
+
+        </div>
+
+
+        <div
+          class="letter-content"
+          id="typedMessage"
+        ></div>
+
+
+        <div class="letter-bottom">
+
+          <span>
+            كُتبت بكل صدق
+          </span>
+
+          <span class="signature">
+            From: Mohamed
+          </span>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- =======================================================
+       COUNTER
+  ======================================================== -->
+
+  <section class="counter-section">
+
+    <div class="container">
+
+      <div class="section-title">
+
+        <small>
+          الوقت اللي فات مش قليل
+        </small>
+
+        <h2>
+          منذ أن بدأت أجمل حكاية ❤️
+        </h2>
+
+      </div>
+
+
+      <p class="counter-description">
+        وكل ثانية عدت كان فيها شيء يستحق أن يتذكر.
+      </p>
+
+
+      <div class="counter">
+
+        <div class="time-box">
+
+          <span
+            class="time-number"
+            id="days"
+          >
+            0
+          </span>
+
+          <span class="time-label">
+            يوم
+          </span>
+
+        </div>
+
+
+        <div class="time-box">
+
+          <span
+            class="time-number"
+            id="hours"
+          >
+            0
+          </span>
+
+          <span class="time-label">
+            ساعة
+          </span>
+
+        </div>
+
+
+        <div class="time-box">
+
+          <span
+            class="time-number"
+            id="minutes"
+          >
+            0
+          </span>
+
+          <span class="time-label">
+            دقيقة
+          </span>
+
+        </div>
+
+
+        <div class="time-box">
+
+          <span
+            class="time-number"
+            id="seconds"
+          >
+            0
+          </span>
+
+          <span class="time-label">
+            ثانية
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =======================================================
+       FINAL
+  ======================================================== -->
+
+  <section class="final-section">
+
+    <div class="container">
+
+      <span class="final-heart">
+        ❤️
+      </span>
+
+
+      <h2 class="final-title">
+        وما زالت الحكاية مستمرة...
+      </h2>
+
+
+      <p class="final-text">
+
+        يمكن مش كل حاجة بينا كانت سهلة
+        ويمكن الفترة الأخيرة كانت مختلفة
+        لكن بعض الأشخاص مهما حصل بينهم
+        بيفضل ليهم مكان خاص.
+
+      </p>
+
+
+      <div
+        class="surprise"
+        id="surprise"
+      >
+
+        <div class="surprise-text">
+
+        بحبك يا عبيطه 🙂🤍
+
+        </div>
+
+      </div>
+
+
+      <button
+        class="main-button"
+        id="surpriseButton"
+      >
+        دوسي هنا
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- =======================================================
+       FOOTER
+  ======================================================== -->
+
+  <footer>
+
+    R
+
+  </footer>
+
+
+  <script>
+
+    /* =========================================================
+       ⚙️ إعدادات الموقع
+       
+       عدّل التاريخ فقط إذا أردت تغيير العداد.
+    ========================================================= */
+
+    const CONFIG = {
+
+      /*
+        ضع تاريخ بداية علاقتكم هنا.
+
+        مثال:
+        2024-05-20T20:00:00
+
+        الصيغة:
+        YYYY-MM-DDTHH:MM:SS
+      */
+
+      startDate:
+        "2009-08-29T20:00:00",
+
+
+      /*
+        سرعة ظهور الرسالة
+
+        رقم أصغر = أسرع
+      */
+
+      typingSpeed:
+        25
+
+    };
+
+
+    /* =========================================================
+       الرسالة الأصلية
+    ========================================================= */
+
+    const message = `كل سنة وإنتي طيبة يا حبيبتي وعقبال سنين كتير جاية تكون أحسن وأهدى وأجمل من كل اللي فات ❤️
+
+النهارده يوم مميز بالنسبالي مش بس عشان عيد ميلادك لكن عشان هو اليوم اللي بدأت فيه حكاية وجود شخص بقى له مكان كبير في حياتي وعشان كده مهما كانت الفترة اللي فاتت بينا ومهما حصل من زعل أو خلاف أو توتر مقدرتش أعدي اليوم ده كأنه يوم عادي
+
+أنا عارف إن علاقتنا الفترة الأخيرة مكنتش في أحسن حال وعارف إن في حاجات كتير بينا اتغيرت وفي كلام كتير يمكن اتقال غلط وحاجات تانية فضلنا ساكتين عنها بس برغم كل ده أنا مش شايف إن اللي بينا يتقاس بس بالفترة الصعبة اللي إحنا فيها دلوقتي لأن في بينا وقت وتفاصيل ومواقف كتير حلوة وحاجات أنا مقدرها ومش بنساها بسهولة
+
+مش هقعد أقولك إن كل حاجة هتبقى مثالية من بكرة ولا هقولك كلام كبير لمجرد إن النهارده عيد ميلادك أنا بس بتمنى إن السنة الجديدة من عمرك تكون أهدى عليكي وتكون مليانة بحاجات تفرحك وتخليكي مرتاحة وتوصلي فيها لكل حاجة نفسك فيها سواء كانت كبيرة أو صغيرة
+
+أتمنى تشوفي نفسك دايمًا في المكان اللي تستحقيه وتفضلي محافظة على نفسك وعلى أحلامك ومهما الدنيا ضغطت عليكي أو قابلتي أيام صعبة تفضلي عارفة إنك قادرة تعديها وتكملي
+
+وبالنسبة لينا أنا مش عايز النهارده أفتح حساب مين غلط ومين اتضايق أكتر ومين كان المفروض يعمل إيه كل ده له وقته ولو في كلام محتاج يتقال فالأهم إنه يتقال في وقت مناسب وبهدوء مش في عيد ميلادك لكن أكيد مش هكدب عليكي وأقول إن مفيش حاجة أثرت فيا لأن في حاجات حصلت فعلًا وجعتني وفي نفس الوقت عارف إن أكيد في حاجات مني وجعتك إنتي كمان
+
+بس اللي أعرفه إن رغم كل ده لسه عندي تقدير كبير ليكي ولسه بتمنى أشوفك مبسوطة ومرتاحة ولسه وجودك بالنسبة لي مش حاجة عادية أقدر أتعامل معاها كأنها مفرقتش معايا
+
+يمكن مش كل حاجة بينا ماشية بالشكل اللي إحنا كنا متخيلينه ويمكن محتاجين نفهم بعض أكتر ونتعامل مع بعض بهدوء ونضج أكتر بس أنا مؤمن إن أي حاجة ليها قيمة تستاهل إننا نحاول نفهمها ونحافظ عليها بدل ما نسيبها تضيع بسبب فترة صعبة
+
+وفي النهاية أنا مش عايز منك في يومك ده غير إنك تفرحي وتتبسطي وتعرفي إن في حد مهما كان بينكم من خلافات لسه بيتمنالك الخير من قلبه
+
+كل سنة وإنتي طيبة وكل سنة وإنتي أقرب لكل حاجة بتحلمي بيها وكل سنة وإنتي في حال أحسن وراحة بال أكتر ربنا يكتبلك سنة جديدة فيها فرحة حقيقية ونجاح وراحة وأيام حلوة تعوضك عن أي حاجة وحشة عدت عليكي
+
+عيد ميلاد سعيد يا حبيبتي ❤️
+
+وإن شاء الله السنة الجديدة دي تكون أحسن ليكي في كل حاجة`;
+
+
+    /* =========================================================
+       OPEN MESSAGE
+    ========================================================= */
+
+    const openMessage =
+      document.getElementById(
+        "openMessage"
+      );
+
+    const messageSection =
+      document.getElementById(
+        "messageSection"
+      );
+
+
+    openMessage.addEventListener(
+      "click",
+      () => {
+
+        messageSection.scrollIntoView({
+          behavior:
+            "smooth",
+
+          block:
+            "start"
+        });
+
+        setTimeout(
+          startTyping,
+          450
+        );
+
+      }
+    );
+
+
+    /* =========================================================
+       TYPEWRITER
+    ========================================================= */
+
+    const typedMessage =
+      document.getElementById(
+        "typedMessage"
+      );
+
+
+    let typingStarted =
+      false;
+
+
+    function startTyping() {
+
+      if (typingStarted)
+        return;
+
+      typingStarted =
+        true;
+
+
+      typedMessage.innerHTML =
+        '<span class="typing-cursor"></span>';
+
+
+      let index =
+        0;
+
+
+      function typeNext() {
+
+        if (
+          index <
+          message.length
+        ) {
+
+          const cursor =
+            typedMessage.querySelector(
+              ".typing-cursor"
+            );
+
+
+          const character =
+            message[index];
+
+
+          if (
+            character === "\n"
+          ) {
+
+            cursor.insertAdjacentHTML(
+              "beforebegin",
+              "<br><br>"
+            );
+
+          } else {
+
+            cursor.insertAdjacentText(
+              "beforebegin",
+              character
+            );
+
+          }
+
+
+          index++;
+
+
+          let delay =
+            CONFIG.typingSpeed;
+
+
+          /*
+            توقف بسيط بعد النقاط
+            لإحساس طبيعي أكثر
+          */
+
+          if (
+            character === "." ||
+            character === "،"
+          ) {
+
+            delay += 45;
+
+          }
+
+
+          if (
+            character === "❤️"
+          ) {
+
+            delay += 80;
+
+          }
+
+
+          setTimeout(
+            typeNext,
+            delay
+          );
+
+        } else {
+
+          const cursor =
+            typedMessage.querySelector(
+              ".typing-cursor"
+            );
+
+
+          if (cursor) {
+
+            cursor.style.display =
+              "none";
+
+          }
+
+        }
+
+      }
+
+
+      typeNext();
+
+    }
+
+
+    /* =========================================================
+       AUTO START WHEN VISIBLE
+    ========================================================= */
+
+    const messageObserver =
+      new IntersectionObserver(
+
+        (entries) => {
+
+          entries.forEach(
+            (entry) => {
+
+              if (
+                entry.isIntersecting
+              ) {
+
+                startTyping();
+
+              }
+
+            }
+          );
+
+        },
+
+        {
+          threshold:
+            .25
+        }
+
+      );
+
+
+    messageObserver.observe(
+      messageSection
+    );
+
+
+    /* =========================================================
+       COUNTER
+    ========================================================= */
+
+    const startDate =
+      new Date(
+        CONFIG.startDate
+      );
+
+
+    function updateCounter() {
+
+      const now =
+        new Date();
+
+
+      let difference =
+        now - startDate;
+
+
+      if (
+        difference < 0
+      ) {
+
+        difference = 0;
+
+      }
+
+
+      const SECOND =
+        1000;
+
+      const MINUTE =
+        SECOND * 60;
+
+      const HOUR =
+        MINUTE * 60;
+
+      const DAY =
+        HOUR * 24;
+
+
+      const days =
+        Math.floor(
+          difference / DAY
+        );
+
+
+      const hours =
+        Math.floor(
+          (difference % DAY) /
+          HOUR
+        );
+
+
+      const minutes =
+        Math.floor(
+          (difference % HOUR) /
+          MINUTE
+        );
+
+
+      const seconds =
+        Math.floor(
+          (difference % MINUTE) /
+          SECOND
+        );
+
+
+      document.getElementById(
+        "days"
+      ).textContent =
+        days;
+
+
+      document.getElementById(
+        "hours"
+      ).textContent =
+        String(hours)
+          .padStart(2, "0");
+
+
+      document.getElementById(
+        "minutes"
+      ).textContent =
+        String(minutes)
+          .padStart(2, "0");
+
+
+      document.getElementById(
+        "seconds"
+      ).textContent =
+        String(seconds)
+          .padStart(2, "0");
+
+    }
+
+
+    updateCounter();
+
+
+    setInterval(
+      updateCounter,
+      1000
+    );
+
+
+    /* =========================================================
+       BACKGROUND HEARTS
+    ========================================================= */
+
+    const floatingHearts =
+      document.getElementById(
+        "floatingHearts"
+      );
+
+
+    const heartCharacters = [
+      "♡",
+      "♥",
+      "❤"
+    ];
+
+
+    function createBackgroundHeart() {
+
+      const heart =
+        document.createElement(
+          "span"
+        );
+
+
+      heart.className =
+        "bg-heart";
+
+
+      heart.textContent =
+        heartCharacters[
+          Math.floor(
+            Math.random() *
+            heartCharacters.length
+          )
+        ];
+
+
+      heart.style.left =
+        Math.random() * 100 +
+        "vw";
+
+
+      heart.style.fontSize =
+        11 +
+        Math.random() * 12 +
+        "px";
+
+
+      heart.style.animationDuration =
+        12 +
+        Math.random() * 10 +
+        "s";
+
+
+      floatingHearts.appendChild(
+        heart
+      );
+
+
+      setTimeout(
+        () => {
+
+          heart.remove();
+
+        },
+        23000
+      );
+
+    }
+
+
+    /*
+      عدد قليل فقط
+      حتى يظل التصميم هادئًا
+    */
+
+    for (
+      let i = 0;
+      i < 9;
+      i++
+    ) {
+
+      setTimeout(
+        createBackgroundHeart,
+        i * 900
+      );
+
+    }
+
+
+    setInterval(
+      createBackgroundHeart,
+      2200
+    );
+
+
+    /* =========================================================
+       FINAL SURPRISE
+    ========================================================= */
+
+    const surpriseButton =
+      document.getElementById(
+        "surpriseButton"
+      );
+
+
+    const surprise =
+      document.getElementById(
+        "surprise"
+      );
+
+
+    surpriseButton.addEventListener(
+      "click",
+      () => {
+
+        surprise.classList.add(
+          "show"
+        );
+
+
+        surpriseButton.textContent =
+          "بحبكِ ❤️";
+
+
+        createCelebration();
+
+      }
+    );
+
+
+    /* =========================================================
+       CELEBRATION
+    ========================================================= */
+
+    function createCelebration() {
+
+      const total =
+        28;
+
+
+      for (
+        let i = 0;
+        i < total;
+        i++
+      ) {
+
+        const heart =
+          document.createElement(
+            "span"
+          );
+
+
+        heart.className =
+          "celebration-heart";
+
+
+        heart.textContent =
+          heartCharacters[
+            Math.floor(
+              Math.random() *
+              heartCharacters.length
+            )
+          ];
+
+
+        heart.style.left =
+          50 +
+          (Math.random() * 10 - 5) +
+          "vw";
+
+
+        heart.style.top =
+          65 +
+          (Math.random() * 8 - 4) +
+          "vh";
+
+
+        heart.style.setProperty(
+          "--x",
+          Math.random() * 450 -
+          225 +
+          "px"
+        );
+
+
+        heart.style.setProperty(
+          "--y",
+          -120 -
+          Math.random() * 400 +
+          "px"
+        );
+
+
+        heart.style.setProperty(
+          "--r",
+          Math.random() * 360 -
+          180 +
+          "deg"
+        );
+
+
+        heart.style.animationDelay =
+          Math.random() * .3 +
+          "s";
+
+
+        document.body.appendChild(
+          heart
+        );
+
+
+        setTimeout(
+          () => {
+
+            heart.remove();
+
+          },
+          2200
+        );
+
+      }
+
+    }
+
+  </script>
+
+</body>
+</html>
